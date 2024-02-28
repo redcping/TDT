@@ -52,15 +52,15 @@ def calc_pdf_cdf(x):
     return t_pdf+1e-6, t_cdf
 
     #normal distribution
-    normal = Normal(zeros, ones)
-    g_cdf  = normal.cdf(x)
-    g_pdf  = normal.log_prob(x).exp()+1e-6
-    return g_pdf,g_cdf
+    #normal = Normal(zeros, ones)
+    #g_cdf  = normal.cdf(x)
+    #g_pdf  = normal.log_prob(x).exp()+1e-6
+    #return g_pdf,g_cdf
 
     #mean Normal and Triangular distributions
-    pdf = (t_pdf + g_pdf) * 0.5
-    cdf = (t_cdf + g_cdf) * 0.5        
-    return pdf+1e-6, cdf
+    #pdf = (t_pdf + g_pdf) * 0.5
+    #cdf = (t_cdf + g_cdf) * 0.5        
+    #return pdf+1e-6, cdf
 
 
 def calc_mean_std(x):
