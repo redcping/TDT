@@ -6,12 +6,14 @@
 ![pytorch](https://img.shields.io/badge/PyTorch-2.1-orange)
 
 # Description
-This repository contains the code for our paper "Learning Triangular Distribution in Visual World".
-![image](https://github.com/redcping/TDT/assets/18466019/c92cdd1d-fd37-424d-be68-28e23bb3c9d1)
+This repository is the official source of code for our paper titled "Learning Triangular Distribution in Visual World".  [Arxiv](https://arxiv.org/abs/2311.18605).
+
+![image](https://github.com/redcping/TDT/assets/18466019/a617afbc-50a2-4395-bda6-0bba4c950563)
+
+
 
   We propose a so-called Triangular Distribution Transform(TDT) to build an injective function between feature and label, guaranteeing that any symmetric feature discrepancy linearly reflects the difference between labels. The proposed TDT can be used as a plug-in in mainstream backbone networks to address different label distribution learning tasks.
 
-# [Arxiv](https://arxiv.org/abs/2311.18605)
 
 # Core Code
 Please refer to the tdt.py file. 
