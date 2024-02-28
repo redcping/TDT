@@ -16,7 +16,7 @@ This repository is the official source of code for our paper titled "Learning Tr
 
 
 # Core Code
-Please refer to the tdt.py file. 
+Please refer to the [tdt.py](https://github.com/redcping/TDT/blob/main/tdt.py) file. 
 # Tasks Code
 come soon
 # Citation
