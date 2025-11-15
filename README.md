@@ -10,7 +10,7 @@ This repository is the official source of code for our paper titled "Learning Tr
 
 ![image](https://github.com/redcping/TDT/assets/18466019/a617afbc-50a2-4395-bda6-0bba4c950563)
 
-  We propose a so-called Triangular Distribution Transform(TDT) to build an injective function between feature and label, guaranteeing that any symmetric feature discrepancy linearly reflects the difference between labels. The proposed TDT can be used as a plug-in in mainstream backbone networks to address different label distribution learning tasks.
+ We propose a so-called Triangular Distribution Transform (TDT) to build an injective function between feature and label, guaranteeing that any symmetric feature discrepancy linearly reflects the difference between labels. The proposed TDT can be used as a plug-in in mainstream backbone networks to address different label distribution learning tasks, and is particularly suitable for tasks where labels can be approximately linearly predicted — such as age estimation, automatic white balance (AWB), and aesthetic scoring.
 
 # Core Code
 Please refer to the [tdt.py](https://github.com/redcping/TDT/blob/main/tdt.py) file. 
